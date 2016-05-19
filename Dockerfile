@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM busybox
+MAINTAINER kunalkushwaha
 COPY coffee /bin/
-#RUN chmod +x /tmp/coffee
 CMD /bin/coffee
